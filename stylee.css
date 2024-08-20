@@ -1,0 +1,528 @@
+.main {
+  background-color: rgb(242, 244, 238);
+  color: black;
+}
+.main {
+  padding: 1%;
+  color: black;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hello h1 span {
+  font-size: 60px;
+}
+
+.main1 {
+  text-align: center;
+  color: red;
+}
+.main2 {
+  text-align: center;
+  color: black;
+}
+.h1 {
+  font-family: "Times New Roman";
+}
+.main2 p {
+  font-size: 20px;
+}
+
+.main4 {
+  font-family: "Times New Roman", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.image-box {
+  text-align: center;
+  width: 30%;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border-radius: 230px 230px 0 0;
+}
+
+.image-box p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #8b0000;
+}
+.main6 {
+  font-family: "Times New Roman";
+}
+.main6 h1 {
+  font-size: 60px;
+}
+.main6 p {
+  font-size: 25px;
+}
+.main6 p {
+  color: #000;
+}
+.main7 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+}
+#pic {
+  background-image: url(imageess/bg\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  margin-bottom: 5px;
+}
+
+.item p {
+  font-size: 14px;
+}
+
+.price {
+  float: right;
+}
+.menu h1 {
+  font-size: 50px;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  height: 100%;
+  background-color: #fff;
+}
+
+.hero-section {
+  background-image: url("imageess/background\ image\ for\ wedding.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 50px;
+  color: #4a2d1c;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #4a2d1c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+footer {
+  background-color: black;
+  color: black;
+  padding: 40px 20px;
+}
+
+.footer-top,
+.footer-middle,
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #555;
+}
+
+.footer-top div,
+.footer-bottom div {
+  flex: 1;
+  padding: 0 10px;
+}
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom p {
+  color: white;
+}
+.footer-copyright p {
+  background-color: #000;
+  color: white;
+}
+.newsletter h2,
+.address-hours h3,
+.orders h3,
+.footer-service h4 .address-hours p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: white;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.newsletter input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+}
+.newsletter label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+}
+.newsletter button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.address-hours,
+.orders {
+  text-align: left;
+  color: white;
+}
+.address-hours p {
+  font-size: 18px;
+  color: white;
+}
+.orders p {
+  font-size: 18px;
+  color: white;
+}
+.address-hours button,
+.orders button {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.footer-middle {
+  justify-content: flex-start;
+}
+.social-media a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer-service {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.footer-service div {
+  flex: 5;
+  padding: 0 10px;
+}
+
+.footer-service p {
+  font-size: 17px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  color: white;
+}
+.hello h2 {
+  font-size: 60px;
+}
+.hi h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.hi p {
+  font-size: 25px;
+  color: black;
+}
+.sri1 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sri1:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 1px 20px;
+}
+#backgroundimage {
+  background-image: url(imageess/bg\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+}
+.image-container1 {
+  flex: 1;
+  padding-right: 20px;
+}
+.image-container1 img {
+  width: 100%;
+  border-radius: 50px;
+}
+.testimonial {
+  flex: 1;
+  background-color: #f8e6dc;
+  padding: 30px;
+  border-radius: 50px;
+}
+.testimonial h2 {
+  font-family: "Georgia", serif;
+  color: #923f2d;
+  margin-bottom: 20px;
+}
+.testimonial p {
+  font-size: 18px;
+  color: #6b4b3a;
+  line-height: 1.6;
+}
+.testimonial .author {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #923f2d;
+  font-size: 16px;
+}
+.image3 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+}
+.image3 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.catering1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.catering1 p {
+  font-size: 20px;
+  color: red;
+}
+.catering1 h1 {
+  font-size: 60px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+.catering1 h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+.catering2 p1 {
+  color: red;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+.catering2 h1 {
+  color: #000;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.catering2 h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.catering2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.catering-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.catering-card {
+  width: 30%;
+  position: relative;
+}
+
+.catering-card img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.catering-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.catering-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.catering-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.catering-content .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #c87e5a;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.contact1 h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: red;
+}
+.contact1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  color: #000;
+}
+.contact1 p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+#Contact {
+  text-align: center;
+}
+#contact3 h2 {
+  font-size: 30px;
+  color: white;
+}
+#contact2 {
+  background-image: url(imageess/contact\ list.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
